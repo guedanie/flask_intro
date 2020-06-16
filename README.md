@@ -22,3 +22,13 @@ Repo for learning flask and model deployment
     1. Activate it `. env/bin/activate`
     1. Work on our project
     1. `deactivate`
+
+## Installing Dependencies
+
+1. Make sure the virtual environemnt is activated 
+1. (If a `requirements.txt` file exists) Install any existing dependencies.
+> `python -m pip install -r requirements.txt`
+1. Add a new dependency
+> `python -m pip install sklearn`
+1. Save all your installed dependencies to a text file.
+> `python -m pip freeze > requirements.txt`
